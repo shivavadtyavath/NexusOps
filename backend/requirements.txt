@@ -1,0 +1,39 @@
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.12
+httpx==0.27.2
+pydantic-settings==2.6.1
+python-dotenv==1.0.1
+groq==0.11.0
+langchain==0.3.9
+langgraph==0.2.55
+langchain-groq==0.2.3
+langchain-community==0.3.9
+# GitHub integration (free)
+PyGithub==2.4.0
+# AST / code parsing
+tree-sitter==0.23.2
+# Static analysis (free)
+bandit==1.7.10
+pylint==3.3.2
+# Code diff
+gitpython==3.1.43
+unidiff==0.7.5
+# Vector DB for code embeddings
+chromadb==0.5.20
+sentence-transformers==3.3.1
+# Database
+sqlalchemy==2.0.36
+aiosqlite==0.20.0
+# Utils
+aiohttp==3.11.9
+aiofiles==24.1.0
+structlog==24.4.0
+websockets==14.1
+numpy==1.26.4
+# MCP
+mcp==1.1.2
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.24.0
+pytest-cov==6.0.0
