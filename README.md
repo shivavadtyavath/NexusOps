@@ -194,14 +194,6 @@ Tools: `analyze_repo`, `get_code_issues`, `get_health_score`
 
 ---
 
-## 📊 Resume Bullets (copy-paste ready)
-
-- Architected an **autonomous AI DevOps intelligence platform** integrating LangGraph multi-agent pipeline (Scanner → Reviewer → Reporter), Groq LLM for deep code review + automated fix generation, PyGithub for real-time PR analysis, and Bandit/AST for static security scanning — enabling zero-human code quality enforcement across GitHub repositories
-- Implemented **GitHub webhook-driven autonomous PR reviews** that automatically scan changed code on every commit, post structured AI review comments with severity-classified issues (critical/high/medium/low), and generate corrected code patches with inline fix explanations
-- Built a **code health scoring system** with severity-weighted metrics (0–100 scale), interactive React dashboard with recharts visualizations, MCP server for Claude Desktop integration, and SQLite persistence for historical trend tracking — deployed with Docker Compose for one-command setup
-
----
-
 ## 📄 License
 
 MIT
